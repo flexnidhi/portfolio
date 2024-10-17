@@ -22,11 +22,8 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-
     <!-- Ending of Navigation bar -->
-
     <!-- starting short intro -->
-
     <img
       src="./img/download.png"
       class="fixed-background"
@@ -38,24 +35,21 @@
       height="850px"
     />
     <div class="intro-name">
-      <div class="headingline-1">
+      <div class="headingline-1 observed-x">
         Hello, I'm <span style="color: brown">Nidhi</span>.
       </div>
-      <div class="headingline-2">I'm a full stack web developer.</div>
+      <div class="headingline-2 observed-x">I'm a full stack web developer.</div>
       <a class="btn" href="#about">
         <i>v</i><i>i</i><i>e</i><i>w</i> <i>m</i><i>y</i> <i>w</i><i>o</i
         ><i>r</i><i>k</i>
       </a>
     </div>
-
     <!-- Ending short intro -->
-
     <!-- starting of About section -->
-    <div><h1 class="About-name">About</h1></div>
-
-    <div class="row featurette" style="width: 100%; height: 500px">
-      <div class="col-md-6">
-        <div class="about__content">
+    <div id="About"><h1 class="About-name observed ">About</h1></div>
+    <div class="row featurette observed " style="width: 100%; height: 500px">
+      <div class="col-md-6 observed">
+        <div class="about__content observed">
           <div class="profile profile__fade-in">
             <div class="profile__picture">
               <svg
@@ -133,8 +127,8 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6">
-        <div class="skills">
+      <div class="col-md-6 observed">
+        <div class="skills observed">
           <div class="skills__row">
             <div class="skills__item skills__item--html skills__item-fade-in">
               <img style="width: 41%" src="./img/html.png " alt="" />
@@ -196,12 +190,11 @@
         ></svg>
       </div>
     </div>
-
     <!-- Ending of About section -->
     <!-- starting project section -->
-    <section class="projects" id="projects">
-      <h2 class="projects__heading section-heading">Projects</h2>
-      <div class="project project-left">
+    <section class="projects reveal" id="projects">
+      <h2 class="projects__heading section-heading observed ">Projects</h2>
+      <div class="project project-left observed">
         <a href="https://lifeinvadersocial.herokuapp.com/" target="_blank"
           ><div class="project__image-container weather">
             <div class="project__image-image">
@@ -219,14 +212,13 @@
             Full stack social media application built with React, Node.js,
             Express.js, MongoDB, Socket.io and AWS S3.
           </p>
-          <a href="https://lifeinvadersocial.herokuapp.com/" target="_blank"
+          <p href="https://lifeinvadersocial.herokuapp.com/" target="_blank"
             ><div class="project__live-2">
-              <p class="live_app">Live app</p>
+              <p class="live_app" style="text-decoration: none;">Live app</p>
             </div></a
           >
-        </div>
+        </p>
       </div>
-
       <a
         href="https://nextjs-chakra-chatapp-qnhb6dq42-bscottnz.vercel.app/"
         target="_blank"
@@ -240,7 +232,7 @@
             />
           </div></div
       ></a>
-      <div class="project project-right">
+      <div class="project project-right observed">
         <div class="project__info">
           <h3 class="project__title">Ludo <br />dice game</h3>
           <p class="project__description">
@@ -256,7 +248,7 @@
           >
         </div>
       </div>
-      <div class="project project-left">
+      <div class="project project-left observed">
         <a href="https://bscottnz.github.io/esketch/" target="_blank"
           ><div class="project__image-container retro">
             <div class="project__image-image">
@@ -283,7 +275,6 @@
           >
         </div>
       </div>
-
       <a href="https://bscottnz.github.io/todo/" target="_blank"
         ><div class="project__image-container todo">
           <div class="project__image-image">
@@ -295,7 +286,7 @@
             />
           </div></div
       ></a>
-      <div class="project project-right">
+      <div class="project project-right observed">
         <div class="project__info">
           <h3 class="project__title">Furni..<br />the website..</h3>
           <p class="project__description">
@@ -313,10 +304,10 @@
         </div>
       </div>
     </section>
+    
     <!-- ending project section -->
-
     <!-- starting contact section -->
-    <section class="contact" id="contact">
+    <section class="contact reveal observed" id="contact">
       <h2 class="contact__heading section-heading">Contact</h2>
       <p class="contact__text">
         Have a question or want to work together? Leave your details and I'll
@@ -348,22 +339,18 @@
         </div>
       </form>
     </section>
-
     <!-- starting footer section -->
-    <footer class="footer">
-      <div class="footer-text">
+    <footer class="footer reveal observed">
+      <div class="footer-text ">
         <p>Copyright © 2023 by Codehal | All Righhts Reserved</p>
       </div>
-
-      <div class="footer-iconTop">
+      <div class="footer-iconTop ">
         <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
       </div>
     </footer>
     <!-- ending footer section -->
-
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./portfolio.js"></script>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
