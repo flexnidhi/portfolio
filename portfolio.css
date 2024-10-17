@@ -335,3 +335,44 @@ color: white;
   margin-top: -67px;
   background-color: rgba(128, 128, 128, 0.208)
 }
+/* css for observer for secton of projects ,contact, footer */
+  .observed {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
+/* css for observer for secton of intro */
+  /* Initial state for animations */
+.observed-x {
+  opacity: 0;
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.headingline-1 {
+  transform: translateX(-100px); /* Move left */
+}
+
+.headingline-2 {
+  transform: translateX(100px); /* Move right */
+}
+
+/* When the element comes into view */
+.in-view-x.headingline-1 {
+  opacity: 1;
+  transform: translateX(0); /* Slide in from the left */
+}
+
+.in-view-x.headingline-2 {
+  opacity: 1;
+  transform: translateX(0); /* Slide in from the right */
+}
+
+
+
